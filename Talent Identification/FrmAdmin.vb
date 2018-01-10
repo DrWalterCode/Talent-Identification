@@ -1,6 +1,8 @@
 ﻿Imports System.Configuration
 Imports MySql.Data.MySqlClient
-
+''' <summary>
+''' 
+''' </summary>
 Public Class FrmAdmin
     Dim _con As New MySqlConnection(ConfigurationManager.ConnectionStrings("myConnection").ConnectionString)
     Dim _cmd As MySqlCommand
