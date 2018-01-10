@@ -90,9 +90,14 @@ Public Class FrmAdmin
 
         End Try
     End Sub
-
+    ''' <summary>
+    ''' 
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
     Private Sub FrmAdmin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        loadgrid()
+
+        Loadgrid()
     End Sub
 
     Private Sub TileItem1_ItemClick(sender As Object, e As DevExpress.XtraEditors.TileItemEventArgs)
